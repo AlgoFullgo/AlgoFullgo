@@ -58,7 +58,7 @@ playground.xcworkspace
 # tuist generates and unnecessary files for remote
 **/*.xcodeproj
 **/*.xcworkspace
-
+**/Derived/
 
 # Carthage
 #
