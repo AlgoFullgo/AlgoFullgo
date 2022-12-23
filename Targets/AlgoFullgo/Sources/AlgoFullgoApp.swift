@@ -1,5 +1,5 @@
 import SwiftUI
-import AlgoFullgoUI
+import AlgoFullgoLogin
 
 @main
 struct AlgoFullgoApp: App {

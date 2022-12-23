@@ -1,0 +1,2009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CFCA22DC19CC67819D33E1 /* AlgoFullgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0007972101E3ACFFA64B7F /* AlgoFullgoTests.swift */; };
+		0F3BFAE8AC721EF3DBB51E8E /* AlgoFullgoCreate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		17BCC85650CB275B17475E5B /* AlgoFullgoMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDD8315842AC730F88B9D2 /* AlgoFullgoMainTests.swift */; };
+		181BDD310509328584008A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D9517F0DE970A6505DD69 /* ContentView.swift */; };
+		1BACE88AB928FD9D60ACD369 /* AlgoFullgoCreate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */; };
+		1E053A7C81B53AAC7D43ECA9 /* AlgoFullgoSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78D3E66EE545E068F5D622 /* AlgoFullgoSettingsTests.swift */; };
+		26A265C2A7CDD758C1277267 /* AlgoFullgoSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AF49A8EA386A5995A823031 /* AlgoFullgoCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C8838CD6E55FAFB0F7F42 /* AlgoFullgoCoreTests.swift */; };
+		30A213C2F1F708D733C90DB2 /* AlgoFullgoLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */; };
+		32CD2B06AD9C92C86D73AC00 /* AlgoFullgoCreate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */; };
+		467BE98244BB55F0ACC59D73 /* Assets+AlgoFullgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3058D0AEFD44E2A755F719 /* Assets+AlgoFullgo.swift */; };
+		468620C073C56361D63934EF /* AlgoFullgoCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5552E58FDDDF34AB427B5071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2DA2AD2D109E41DBD6D308 /* ContentView.swift */; };
+		57D5F54B3BFF90A9BA13E41F /* AlgoFullgoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0CF25BAC544A3E03ACA99 /* AlgoFullgoCore.swift */; };
+		5F6D81621BD2117BC95DE9F8 /* AlgoFullgoMain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63C64CBDF630D24BB08D3C77 /* AlgoFullgoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */; };
+		69E8970E4C75FCD1D95F0765 /* AlgoFullgoCreateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F6AF50B77C7A42C9F7977 /* AlgoFullgoCreateTests.swift */; };
+		80BC5F7F96F5C6E49D9D1573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74E446AC091D8A699C77574 /* Preview Assets.xcassets */; };
+		893978EFAB5D4F6B65E1B3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E160FBC74C0B411C378FF1AE /* Assets.xcassets */; };
+		9CBC1E0569DE133D2E721540 /* AlgoFullgoLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5476DCAC56ABC3AA56CCEEB /* AlgoFullgoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2999552BAA3BAA3A81E5C308 /* AlgoFullgoLoginTests.swift */; };
+		A97DABB290C7A7B4581DE212 /* AlgoFullgoSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */; };
+		B2141EB30D41A310F9F6114D /* AlgoFullgoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */; };
+		B63C2E0902D40D0C16F078DF /* AlgoFullgoMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */; };
+		B9FED4037B8F3AD8F5F26F4B /* AlgoFullgoSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */; };
+		BBF3DA8739AB8F5C8DA81E96 /* AlgoFullgoMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */; };
+		BD5CB49FCD98FE756CCBE95B /* Bundle+AlgoFullgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B113E5F705ED972427F80DC /* Bundle+AlgoFullgo.swift */; };
+		C0FF2A5E86C3B16523125C9E /* AlgoFullgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799408B2F8D3DF2B41102BB6 /* AlgoFullgoApp.swift */; };
+		C51867137DB37A38DA26029E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8F58BEF026934E123A74 /* ContentView.swift */; };
+		D86549C1CF07801F5914AEAD /* AlgoFullgoLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */; };
+		FF21BA6616CA200625C50109 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B410CC4A31D94639ED5A4D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A5C2A66C33A5C5D69DE9F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041B704827A5118DB6B200BA;
+			remoteInfo = AlgoFullgoLogin;
+		};
+		09B4B075EA02C1E706B127FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF881AC6495176C908F4013;
+			remoteInfo = AlgoFullgoMain;
+		};
+		0D6FAEB53F88BCECF4F34C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD60876E9A232323309B0698;
+			remoteInfo = AlgoFullgoSettings;
+		};
+		20C6B08B597D78A4EE5FC10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD60876E9A232323309B0698;
+			remoteInfo = AlgoFullgoSettings;
+		};
+		2EAF75B29E941E3BE9C999AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F735B56F1115E2CB79A6E0;
+			remoteInfo = AlgoFullgoCore;
+		};
+		371C54BE884C99BEDB23A80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041B704827A5118DB6B200BA;
+			remoteInfo = AlgoFullgoLogin;
+		};
+		650DB128FBEF06A70E98C302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F735B56F1115E2CB79A6E0;
+			remoteInfo = AlgoFullgoCore;
+		};
+		79BA96D3E28C115ECED67D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B6870B3B77BBA5DD2BC596;
+			remoteInfo = AlgoFullgoCreate;
+		};
+		8F64E040DC0EE1BB140A0CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B6870B3B77BBA5DD2BC596;
+			remoteInfo = AlgoFullgoCreate;
+		};
+		9C508CD9AE97A5EEE49E99A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAE227FF8609D1D437539E8;
+			remoteInfo = AlgoFullgo;
+		};
+		E7F407BB68A8F149A6FFD29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2F55B9697FE05DCE8571F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF881AC6495176C908F4013;
+			remoteInfo = AlgoFullgoMain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		152EA5B29E3712C1A8341427 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591FFA0B4CCB8EFF3B4A1F4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C92B08D2AFB211B663FB08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6CB68AB8274E8312D18FEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF2C07F33EC2A9A67F1884D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834444C784191F3C0B3D2065 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97448F9A550222ED8B3D8309 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				468620C073C56361D63934EF /* AlgoFullgoCore.framework in Embed Frameworks */,
+				0F3BFAE8AC721EF3DBB51E8E /* AlgoFullgoCreate.framework in Embed Frameworks */,
+				9CBC1E0569DE133D2E721540 /* AlgoFullgoLogin.framework in Embed Frameworks */,
+				5F6D81621BD2117BC95DE9F8 /* AlgoFullgoMain.framework in Embed Frameworks */,
+				26A265C2A7CDD758C1277267 /* AlgoFullgoSettings.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A286CBA4A2418469ECC35690 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6506DF0DAC07379BFFB917 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061B940CBA1BD947A723A86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038D141F599BA0A2E5C9584 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7133C5CF5208D7E0944ABFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoFullgoCreate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C8838CD6E55FAFB0F7F42 /* AlgoFullgoCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoCoreTests.swift; sourceTree = "<group>"; };
+		0B3058D0AEFD44E2A755F719 /* Assets+AlgoFullgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+AlgoFullgo.swift"; sourceTree = "<group>"; };
+		0E2DA2AD2D109E41DBD6D308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoFullgoMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF7C51AB48C4E531722E0F /* AlgoFullgoCreateTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoCreateTests.plist; sourceTree = "<group>"; };
+		2999552BAA3BAA3A81E5C308 /* AlgoFullgoLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoLoginTests.swift; sourceTree = "<group>"; };
+		29A55A34284509B5D999AAD1 /* AlgoFullgoLogin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoLogin.plist; sourceTree = "<group>"; };
+		31E87C33235D54F4F0078C7C /* AlgoFullgoSettingsTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoSettingsTests.plist; sourceTree = "<group>"; };
+		4E0F6AF50B77C7A42C9F7977 /* AlgoFullgoCreateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoCreateTests.swift; sourceTree = "<group>"; };
+		5C42CD320F06508386A28DE3 /* AlgoFullgoSettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoSettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B113E5F705ED972427F80DC /* Bundle+AlgoFullgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+AlgoFullgo.swift"; sourceTree = "<group>"; };
+		726CC415688715ABB45D14B9 /* AlgoFullgoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799408B2F8D3DF2B41102BB6 /* AlgoFullgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoApp.swift; sourceTree = "<group>"; };
+		7ACD8F58BEF026934E123A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81EDD8315842AC730F88B9D2 /* AlgoFullgoMainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoMainTests.swift; sourceTree = "<group>"; };
+		84F0CF25BAC544A3E03ACA99 /* AlgoFullgoCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoCore.swift; sourceTree = "<group>"; };
+		8CEDF3AA4A6BCF89D99817C2 /* AlgoFullgoMainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoMainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952A7BA32FC6565CC1663D57 /* AlgoFullgoLoginTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoLoginTests.plist; sourceTree = "<group>"; };
+		9790B564BFD9A8ECBE36713A /* AlgoFullgoCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE77812FFECBA871C84E562 /* AlgoFullgo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgo.plist; sourceTree = "<group>"; };
+		9B26413395D25688EEC5961A /* AlgoFullgoCreate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoCreate.plist; sourceTree = "<group>"; };
+		9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoFullgoSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B410CC4A31D94639ED5A4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2E45D57FC29F64EAF1F4503 /* AlgoFullgoCreateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoCreateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB78D3E66EE545E068F5D622 /* AlgoFullgoSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoSettingsTests.swift; sourceTree = "<group>"; };
+		AC2AEA213D3455D87A8F1EFF /* AlgoFullgoCoreTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoCoreTests.plist; sourceTree = "<group>"; };
+		AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoFullgoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D1DD2D2383A6A6107B11A4 /* AlgoFullgoTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoTests.plist; sourceTree = "<group>"; };
+		B74A2FACEF9F2F08814E91B7 /* AlgoFullgoMain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoMain.plist; sourceTree = "<group>"; };
+		C46D9517F0DE970A6505DD69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C74E446AC091D8A699C77574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C96BAAFABA318E0510EB99B8 /* AlgoFullgoMainTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoMainTests.plist; sourceTree = "<group>"; };
+		D2694F0DA96E8EA57FCFC298 /* AlgoFullgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoFullgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4290FB601B124C8413A4E67 /* AlgoFullgoSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoSettings.plist; sourceTree = "<group>"; };
+		D523FB8480025FD9BDEC6618 /* AlgoFullgoCore.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AlgoFullgoCore.plist; sourceTree = "<group>"; };
+		E160FBC74C0B411C378FF1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0007972101E3ACFFA64B7F /* AlgoFullgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFullgoTests.swift; sourceTree = "<group>"; };
+		FBEA0BB3F6A4C923E46487FB /* AlgoFullgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoFullgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoFullgoLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034ED12BEC0397919EDD5FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63C2E0902D40D0C16F078DF /* AlgoFullgoMain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09446EC1C7560237234E2595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095EB2AA9F1A4DF6181AA164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2141EB30D41A310F9F6114D /* AlgoFullgoCore.framework in Frameworks */,
+				1BACE88AB928FD9D60ACD369 /* AlgoFullgoCreate.framework in Frameworks */,
+				D86549C1CF07801F5914AEAD /* AlgoFullgoLogin.framework in Frameworks */,
+				BBF3DA8739AB8F5C8DA81E96 /* AlgoFullgoMain.framework in Frameworks */,
+				B9FED4037B8F3AD8F5F26F4B /* AlgoFullgoSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF9489E17FA6A201B391FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116E801855DBEA52398DE1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E23EEFE01691A4BB5C570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D734365D3B48F7BA60FE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97DABB290C7A7B4581DE212 /* AlgoFullgoSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3DF2FAD05CFD9D5248FE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818160ADBCE7388D02847599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C64CBDF630D24BB08D3C77 /* AlgoFullgoCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F26691F06772876E08260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CD2B06AD9C92C86D73AC00 /* AlgoFullgoCreate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA5FE83E96B6EB25D917591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0391CA66B8F24B8936AF8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A213C2F1F708D733C90DB2 /* AlgoFullgoLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011F3F6BA9A52A6FDD6296D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02B4FB896E3B5DA205A31852 /* AlgoFullgo */ = {
+			isa = PBXGroup;
+			children = (
+				5782045970106096F09ED452 /* Resources */,
+				941864ACD0A56CC106BDA1EC /* Sources */,
+				7484324C1DC6B789BA70A737 /* Tests */,
+			);
+			path = AlgoFullgo;
+			sourceTree = "<group>";
+		};
+		0E148747057EE55A480C1F64 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				D49F3B3BB2CC63501E1008F0 /* Derived */,
+				7A81A7DF409F2FE4E60E9FE7 /* Targets */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		1D2E84B31B1E006505A75E80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C74E446AC091D8A699C77574 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A0C33B31E802501ACE12CB4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A0B410CC4A31D94639ED5A4D /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3BA9C1F76513DC007C7E9786 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				9AE77812FFECBA871C84E562 /* AlgoFullgo.plist */,
+				D523FB8480025FD9BDEC6618 /* AlgoFullgoCore.plist */,
+				AC2AEA213D3455D87A8F1EFF /* AlgoFullgoCoreTests.plist */,
+				9B26413395D25688EEC5961A /* AlgoFullgoCreate.plist */,
+				21DF7C51AB48C4E531722E0F /* AlgoFullgoCreateTests.plist */,
+				29A55A34284509B5D999AAD1 /* AlgoFullgoLogin.plist */,
+				952A7BA32FC6565CC1663D57 /* AlgoFullgoLoginTests.plist */,
+				B74A2FACEF9F2F08814E91B7 /* AlgoFullgoMain.plist */,
+				C96BAAFABA318E0510EB99B8 /* AlgoFullgoMainTests.plist */,
+				D4290FB601B124C8413A4E67 /* AlgoFullgoSettings.plist */,
+				31E87C33235D54F4F0078C7C /* AlgoFullgoSettingsTests.plist */,
+				B2D1DD2D2383A6A6107B11A4 /* AlgoFullgoTests.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		5322092B8C550593B51B80CE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3058D0AEFD44E2A755F719 /* Assets+AlgoFullgo.swift */,
+				6B113E5F705ED972427F80DC /* Bundle+AlgoFullgo.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5591AED04818AFA37E614075 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84F0CF25BAC544A3E03ACA99 /* AlgoFullgoCore.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5782045970106096F09ED452 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E84B31B1E006505A75E80 /* Preview Content */,
+				E160FBC74C0B411C378FF1AE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		661999B634314698B23F7AA3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81EDD8315842AC730F88B9D2 /* AlgoFullgoMainTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		682C8C787399FE8B3A66ADA7 /* AlgoFullgoCore */ = {
+			isa = PBXGroup;
+			children = (
+				5591AED04818AFA37E614075 /* Sources */,
+				854D755B8AFE28B42898B87E /* Tests */,
+			);
+			path = AlgoFullgoCore;
+			sourceTree = "<group>";
+		};
+		734BA0ED29CC48557B350090 = {
+			isa = PBXGroup;
+			children = (
+				0E148747057EE55A480C1F64 /* Project */,
+				011F3F6BA9A52A6FDD6296D9 /* Frameworks */,
+				773F5B12C80D0D517058F7D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7484324C1DC6B789BA70A737 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0007972101E3ACFFA64B7F /* AlgoFullgoTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		773F5B12C80D0D517058F7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2694F0DA96E8EA57FCFC298 /* AlgoFullgo.app */,
+				AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */,
+				9790B564BFD9A8ECBE36713A /* AlgoFullgoCoreTests.xctest */,
+				05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */,
+				A2E45D57FC29F64EAF1F4503 /* AlgoFullgoCreateTests.xctest */,
+				FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */,
+				726CC415688715ABB45D14B9 /* AlgoFullgoLoginTests.xctest */,
+				13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */,
+				8CEDF3AA4A6BCF89D99817C2 /* AlgoFullgoMainTests.xctest */,
+				9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */,
+				5C42CD320F06508386A28DE3 /* AlgoFullgoSettingsTests.xctest */,
+				FBEA0BB3F6A4C923E46487FB /* AlgoFullgoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A81A7DF409F2FE4E60E9FE7 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				02B4FB896E3B5DA205A31852 /* AlgoFullgo */,
+				682C8C787399FE8B3A66ADA7 /* AlgoFullgoCore */,
+				CCCE96262B986FB8B41B5CF2 /* AlgoFullgoCreate */,
+				C70EDCB22407618625FA2F2F /* AlgoFullgoLogin */,
+				8B7F117A9010014762770E97 /* AlgoFullgoMain */,
+				A709B06983DF22E67C6AA3E7 /* AlgoFullgoSettings */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		854D755B8AFE28B42898B87E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				093C8838CD6E55FAFB0F7F42 /* AlgoFullgoCoreTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8B7F117A9010014762770E97 /* AlgoFullgoMain */ = {
+			isa = PBXGroup;
+			children = (
+				A81B9473E3503E9E4ECA92B6 /* Sources */,
+				661999B634314698B23F7AA3 /* Tests */,
+			);
+			path = AlgoFullgoMain;
+			sourceTree = "<group>";
+		};
+		8D685592ED3EC5F943BAE7E4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C46D9517F0DE970A6505DD69 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		941864ACD0A56CC106BDA1EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				799408B2F8D3DF2B41102BB6 /* AlgoFullgoApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A709B06983DF22E67C6AA3E7 /* AlgoFullgoSettings */ = {
+			isa = PBXGroup;
+			children = (
+				8D685592ED3EC5F943BAE7E4 /* Sources */,
+				B6D70C61297FF8B2FB1DE468 /* Tests */,
+			);
+			path = AlgoFullgoSettings;
+			sourceTree = "<group>";
+		};
+		A81B9473E3503E9E4ECA92B6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8F58BEF026934E123A74 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B6D70C61297FF8B2FB1DE468 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB78D3E66EE545E068F5D622 /* AlgoFullgoSettingsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C2E09393301FA7E44A6ED23B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0E2DA2AD2D109E41DBD6D308 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C70EDCB22407618625FA2F2F /* AlgoFullgoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C2E09393301FA7E44A6ED23B /* Sources */,
+				CD033DA134FB8D71E125D0B8 /* Tests */,
+			);
+			path = AlgoFullgoLogin;
+			sourceTree = "<group>";
+		};
+		C94C1773DCF4D3B02C80337F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0F6AF50B77C7A42C9F7977 /* AlgoFullgoCreateTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CCCE96262B986FB8B41B5CF2 /* AlgoFullgoCreate */ = {
+			isa = PBXGroup;
+			children = (
+				3A0C33B31E802501ACE12CB4 /* Sources */,
+				C94C1773DCF4D3B02C80337F /* Tests */,
+			);
+			path = AlgoFullgoCreate;
+			sourceTree = "<group>";
+		};
+		CD033DA134FB8D71E125D0B8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2999552BAA3BAA3A81E5C308 /* AlgoFullgoLoginTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D49F3B3BB2CC63501E1008F0 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9C1F76513DC007C7E9786 /* InfoPlists */,
+				5322092B8C550593B51B80CE /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041B704827A5118DB6B200BA /* AlgoFullgoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82A86FE42044807AB1C20C3 /* Build configuration list for PBXNativeTarget "AlgoFullgoLogin" */;
+			buildPhases = (
+				A2D42DB896908C247FECBAB8 /* Sources */,
+				763C7C3C199CA8D11B02ABEB /* Resources */,
+				7B6CB68AB8274E8312D18FEC /* Embed Frameworks */,
+				0AF9489E17FA6A201B391FB2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoFullgoLogin;
+			productName = AlgoFullgoLogin;
+			productReference = FD253D577B5200DA88AA3225 /* AlgoFullgoLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		10B6870B3B77BBA5DD2BC596 /* AlgoFullgoCreate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA0AE4C135A71BBBBE02816 /* Build configuration list for PBXNativeTarget "AlgoFullgoCreate" */;
+			buildPhases = (
+				C373E35098CCBA4A83BC9EC8 /* Sources */,
+				F8F15CC5C29DFA2E86D9A428 /* Resources */,
+				AF6506DF0DAC07379BFFB917 /* Embed Frameworks */,
+				116E801855DBEA52398DE1FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoFullgoCreate;
+			productName = AlgoFullgoCreate;
+			productReference = 05FD38F3E94411F96E069DE7 /* AlgoFullgoCreate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11884838EFCBE0066082F473 /* AlgoFullgoCreateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2C0E1520F04D949D223B23 /* Build configuration list for PBXNativeTarget "AlgoFullgoCreateTests" */;
+			buildPhases = (
+				7BD357A4911E95640CD4349D /* Sources */,
+				11986B4DBF809EA7164D9EE5 /* Resources */,
+				77C92B08D2AFB211B663FB08 /* Embed Frameworks */,
+				8C1F26691F06772876E08260 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C76BAC8BA7DF533E469B691 /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoCreateTests;
+			productName = AlgoFullgoCreateTests;
+			productReference = A2E45D57FC29F64EAF1F4503 /* AlgoFullgoCreateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16EDAEE6CFE90280680EF012 /* AlgoFullgoLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A518CCF3D28C4E346EF394 /* Build configuration list for PBXNativeTarget "AlgoFullgoLoginTests" */;
+			buildPhases = (
+				FEF86474E635CFB716F21A35 /* Sources */,
+				75ADFF8E83F5900CDB3B8AF1 /* Resources */,
+				834444C784191F3C0B3D2065 /* Embed Frameworks */,
+				F0391CA66B8F24B8936AF8B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A89D1F2FE2AB9D47F133058 /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoLoginTests;
+			productName = AlgoFullgoLoginTests;
+			productReference = 726CC415688715ABB45D14B9 /* AlgoFullgoLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16F735B56F1115E2CB79A6E0 /* AlgoFullgoCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85E7442B7B4805EF865BAE6 /* Build configuration list for PBXNativeTarget "AlgoFullgoCore" */;
+			buildPhases = (
+				C5C03D64F2368AF1A5E156D8 /* Sources */,
+				41B07CA476064CE61C3F3301 /* Resources */,
+				591FFA0B4CCB8EFF3B4A1F4F /* Embed Frameworks */,
+				8DA5FE83E96B6EB25D917591 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoFullgoCore;
+			productName = AlgoFullgoCore;
+			productReference = AE0CFC2E7F78AAEBD1F7DCEA /* AlgoFullgoCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		391A346138C10D884679240C /* AlgoFullgoMainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978B252EF9E2B4E281806F7 /* Build configuration list for PBXNativeTarget "AlgoFullgoMainTests" */;
+			buildPhases = (
+				6585F773B3E07A2B841D2BA2 /* Sources */,
+				A2AADACB3C363BC9085F6203 /* Resources */,
+				E038D141F599BA0A2E5C9584 /* Embed Frameworks */,
+				034ED12BEC0397919EDD5FD4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019F17F32F8160D02665B844 /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoMainTests;
+			productName = AlgoFullgoMainTests;
+			productReference = 8CEDF3AA4A6BCF89D99817C2 /* AlgoFullgoMainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5F2742AF709FDCEC6EC0AA /* AlgoFullgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB0B98002E7449962BA5807 /* Build configuration list for PBXNativeTarget "AlgoFullgoTests" */;
+			buildPhases = (
+				A9769AA81FD399C461F3911B /* Sources */,
+				9C7D0C02E107B98CBD4ED066 /* Resources */,
+				B061B940CBA1BD947A723A86 /* Embed Frameworks */,
+				09446EC1C7560237234E2595 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3189FF12098DDC9D127C271 /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoTests;
+			productName = AlgoFullgoTests;
+			productReference = FBEA0BB3F6A4C923E46487FB /* AlgoFullgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFAE227FF8609D1D437539E8 /* AlgoFullgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC9828654DFDB9586A15556 /* Build configuration list for PBXNativeTarget "AlgoFullgo" */;
+			buildPhases = (
+				107C1A18E878DDCB0CB98D91 /* Sources */,
+				2A1C6FB8C9521E2150E3FA17 /* Resources */,
+				97448F9A550222ED8B3D8309 /* Embed Frameworks */,
+				095EB2AA9F1A4DF6181AA164 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D018EE4D8117548748F2E6BA /* PBXTargetDependency */,
+				C6C91F2523BF25557566F20D /* PBXTargetDependency */,
+				42EA10715AF90E58C201B2FA /* PBXTargetDependency */,
+				A7955817EFBE2DE3D5C8056A /* PBXTargetDependency */,
+				742862B442D1E7AEBF2A6063 /* PBXTargetDependency */,
+			);
+			name = AlgoFullgo;
+			productName = AlgoFullgo;
+			productReference = D2694F0DA96E8EA57FCFC298 /* AlgoFullgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF881AC6495176C908F4013 /* AlgoFullgoMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047322FEB6DEE216C6AE3638 /* Build configuration list for PBXNativeTarget "AlgoFullgoMain" */;
+			buildPhases = (
+				4E9A985455C95138BE831EE9 /* Sources */,
+				79161C0AE69744F07777C4D9 /* Resources */,
+				A286CBA4A2418469ECC35690 /* Embed Frameworks */,
+				4C1E23EEFE01691A4BB5C570 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoFullgoMain;
+			productName = AlgoFullgoMain;
+			productReference = 13E975A053DA572F5FF2669B /* AlgoFullgoMain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F226F054FCA11AF1D86CED79 /* AlgoFullgoSettingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79B03F6C9C332F31F2305AA /* Build configuration list for PBXNativeTarget "AlgoFullgoSettingsTests" */;
+			buildPhases = (
+				2E758C172E45B604553960DB /* Sources */,
+				5F99515BC0F7A370F03F8AC2 /* Resources */,
+				7DF2C07F33EC2A9A67F1884D /* Embed Frameworks */,
+				60D734365D3B48F7BA60FE32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1C4A81DF2ABD5F8FCFA99A /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoSettingsTests;
+			productName = AlgoFullgoSettingsTests;
+			productReference = 5C42CD320F06508386A28DE3 /* AlgoFullgoSettingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F27EB83BABADF865C6C987B7 /* AlgoFullgoCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58E99313E82FB09B21EA364 /* Build configuration list for PBXNativeTarget "AlgoFullgoCoreTests" */;
+			buildPhases = (
+				5C584CB0C28315A3523156D6 /* Sources */,
+				65E22A687F0C7EB4AAB4DA82 /* Resources */,
+				E7133C5CF5208D7E0944ABFE /* Embed Frameworks */,
+				818160ADBCE7388D02847599 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D839166987851BE20E85DEC /* PBXTargetDependency */,
+			);
+			name = AlgoFullgoCoreTests;
+			productName = AlgoFullgoCoreTests;
+			productReference = 9790B564BFD9A8ECBE36713A /* AlgoFullgoCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD60876E9A232323309B0698 /* AlgoFullgoSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49FD745F59DA0A229B36A0D /* Build configuration list for PBXNativeTarget "AlgoFullgoSettings" */;
+			buildPhases = (
+				C5472E42B96F22DCCC615CCD /* Sources */,
+				E54172B3C415005BEFE954CC /* Resources */,
+				152EA5B29E3712C1A8341427 /* Embed Frameworks */,
+				6F3DF2FAD05CFD9D5248FE27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoFullgoSettings;
+			productName = AlgoFullgoSettings;
+			productReference = 9F76AAEDCDD6BAC5AEA8FBEE /* AlgoFullgoSettings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2F55B9697FE05DCE8571F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = pdd.com;
+				TargetAttributes = {
+					AF5F2742AF709FDCEC6EC0AA = {
+						TestTargetID = AFAE227FF8609D1D437539E8;
+					};
+				};
+			};
+			buildConfigurationList = 0BE8376046C76B3013D5B452 /* Build configuration list for PBXProject "AlgoFullgo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 734BA0ED29CC48557B350090;
+			productRefGroup = 773F5B12C80D0D517058F7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAE227FF8609D1D437539E8 /* AlgoFullgo */,
+				AF5F2742AF709FDCEC6EC0AA /* AlgoFullgoTests */,
+				16F735B56F1115E2CB79A6E0 /* AlgoFullgoCore */,
+				F27EB83BABADF865C6C987B7 /* AlgoFullgoCoreTests */,
+				041B704827A5118DB6B200BA /* AlgoFullgoLogin */,
+				16EDAEE6CFE90280680EF012 /* AlgoFullgoLoginTests */,
+				CFF881AC6495176C908F4013 /* AlgoFullgoMain */,
+				391A346138C10D884679240C /* AlgoFullgoMainTests */,
+				10B6870B3B77BBA5DD2BC596 /* AlgoFullgoCreate */,
+				11884838EFCBE0066082F473 /* AlgoFullgoCreateTests */,
+				FD60876E9A232323309B0698 /* AlgoFullgoSettings */,
+				F226F054FCA11AF1D86CED79 /* AlgoFullgoSettingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11986B4DBF809EA7164D9EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1C6FB8C9521E2150E3FA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893978EFAB5D4F6B65E1B3AD /* Assets.xcassets in Resources */,
+				80BC5F7F96F5C6E49D9D1573 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B07CA476064CE61C3F3301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99515BC0F7A370F03F8AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E22A687F0C7EB4AAB4DA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ADFF8E83F5900CDB3B8AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763C7C3C199CA8D11B02ABEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79161C0AE69744F07777C4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7D0C02E107B98CBD4ED066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AADACB3C363BC9085F6203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54172B3C415005BEFE954CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F15CC5C29DFA2E86D9A428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107C1A18E878DDCB0CB98D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467BE98244BB55F0ACC59D73 /* Assets+AlgoFullgo.swift in Sources */,
+				BD5CB49FCD98FE756CCBE95B /* Bundle+AlgoFullgo.swift in Sources */,
+				C0FF2A5E86C3B16523125C9E /* AlgoFullgoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E758C172E45B604553960DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E053A7C81B53AAC7D43ECA9 /* AlgoFullgoSettingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9A985455C95138BE831EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51867137DB37A38DA26029E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C584CB0C28315A3523156D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF49A8EA386A5995A823031 /* AlgoFullgoCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6585F773B3E07A2B841D2BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BCC85650CB275B17475E5B /* AlgoFullgoMainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD357A4911E95640CD4349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E8970E4C75FCD1D95F0765 /* AlgoFullgoCreateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D42DB896908C247FECBAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552E58FDDDF34AB427B5071 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9769AA81FD399C461F3911B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CFCA22DC19CC67819D33E1 /* AlgoFullgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C373E35098CCBA4A83BC9EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF21BA6616CA200625C50109 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5472E42B96F22DCCC615CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BDD310509328584008A7C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03D64F2368AF1A5E156D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D5F54B3BFF90A9BA13E41F /* AlgoFullgoCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86474E635CFB716F21A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5476DCAC56ABC3AA56CCEEB /* AlgoFullgoLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019F17F32F8160D02665B844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoMain;
+			target = CFF881AC6495176C908F4013 /* AlgoFullgoMain */;
+			targetProxy = 09B4B075EA02C1E706B127FD /* PBXContainerItemProxy */;
+		};
+		2D839166987851BE20E85DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoCore;
+			target = 16F735B56F1115E2CB79A6E0 /* AlgoFullgoCore */;
+			targetProxy = 650DB128FBEF06A70E98C302 /* PBXContainerItemProxy */;
+		};
+		42EA10715AF90E58C201B2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoLogin;
+			target = 041B704827A5118DB6B200BA /* AlgoFullgoLogin */;
+			targetProxy = 01A5C2A66C33A5C5D69DE9F0 /* PBXContainerItemProxy */;
+		};
+		4A89D1F2FE2AB9D47F133058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoLogin;
+			target = 041B704827A5118DB6B200BA /* AlgoFullgoLogin */;
+			targetProxy = 371C54BE884C99BEDB23A80C /* PBXContainerItemProxy */;
+		};
+		4F1C4A81DF2ABD5F8FCFA99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoSettings;
+			target = FD60876E9A232323309B0698 /* AlgoFullgoSettings */;
+			targetProxy = 0D6FAEB53F88BCECF4F34C2D /* PBXContainerItemProxy */;
+		};
+		6C76BAC8BA7DF533E469B691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoCreate;
+			target = 10B6870B3B77BBA5DD2BC596 /* AlgoFullgoCreate */;
+			targetProxy = 79BA96D3E28C115ECED67D3B /* PBXContainerItemProxy */;
+		};
+		742862B442D1E7AEBF2A6063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoSettings;
+			target = FD60876E9A232323309B0698 /* AlgoFullgoSettings */;
+			targetProxy = 20C6B08B597D78A4EE5FC10D /* PBXContainerItemProxy */;
+		};
+		A7955817EFBE2DE3D5C8056A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoMain;
+			target = CFF881AC6495176C908F4013 /* AlgoFullgoMain */;
+			targetProxy = E7F407BB68A8F149A6FFD29A /* PBXContainerItemProxy */;
+		};
+		C3189FF12098DDC9D127C271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgo;
+			target = AFAE227FF8609D1D437539E8 /* AlgoFullgo */;
+			targetProxy = 9C508CD9AE97A5EEE49E99A6 /* PBXContainerItemProxy */;
+		};
+		C6C91F2523BF25557566F20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoCreate;
+			target = 10B6870B3B77BBA5DD2BC596 /* AlgoFullgoCreate */;
+			targetProxy = 8F64E040DC0EE1BB140A0CBE /* PBXContainerItemProxy */;
+		};
+		D018EE4D8117548748F2E6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlgoFullgoCore;
+			target = 16F735B56F1115E2CB79A6E0 /* AlgoFullgoCore */;
+			targetProxy = 2EAF75B29E941E3BE9C999AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01A1E0130E0BD1F4202137EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoSettingsTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoSettingsTests;
+				PRODUCT_NAME = AlgoFullgoSettingsTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16881A7A6F7A7F53B9048CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoLogin.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoLogin;
+				PRODUCT_NAME = AlgoFullgoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		180B931C306ADB89FFB0C513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoMain.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoMain;
+				PRODUCT_NAME = AlgoFullgoMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CE95594BFDF88FD2200CF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoMain.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoMain;
+				PRODUCT_NAME = AlgoFullgoMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		387C4E11E2AA97DF02DE9520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AlgoFullgoTests;
+				PRODUCT_NAME = AlgoFullgoTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoFullgo.app/AlgoFullgo";
+				TEST_TARGET_NAME = AlgoFullgo;
+			};
+			name = Release;
+		};
+		39AA9229DB8CFC7CBB9C0D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCreateTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCreateTests;
+				PRODUCT_NAME = AlgoFullgoCreateTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C190E53D511EF985BE016A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoLoginTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoLoginTests;
+				PRODUCT_NAME = AlgoFullgoLoginTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1D6A68E18AD29E3219B05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoMainTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoMainTests;
+				PRODUCT_NAME = AlgoFullgoMainTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51110C43E137A83FD3716B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AlgoFullgo;
+				PRODUCT_NAME = AlgoFullgo;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60B9A00580D19F120D02A951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCore.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCore;
+				PRODUCT_NAME = AlgoFullgoCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		740062077978CADAEF09CC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoLogin.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoLogin;
+				PRODUCT_NAME = AlgoFullgoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F418F07B6FF05B1760576D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCoreTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCoreTests;
+				PRODUCT_NAME = AlgoFullgoCoreTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92185A017D06B774382D2ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AlgoFullgoTests;
+				PRODUCT_NAME = AlgoFullgoTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoFullgo.app/AlgoFullgo";
+				TEST_TARGET_NAME = AlgoFullgo;
+			};
+			name = Debug;
+		};
+		99C1F117CC6028BD0F54BD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoLoginTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoLoginTests;
+				PRODUCT_NAME = AlgoFullgoLoginTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D4C7CD56CB4E2C6EA9E758C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoSettingsTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoSettingsTests;
+				PRODUCT_NAME = AlgoFullgoSettingsTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80A4111B0E9B0D41EBB2108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCreate.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCreate;
+				PRODUCT_NAME = AlgoFullgoCreate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB3D340654B670D4D1FB0952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoSettings.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoSettings;
+				PRODUCT_NAME = AlgoFullgoSettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2D5FC802E759CBCA4119FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoSettings.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoSettings;
+				PRODUCT_NAME = AlgoFullgoSettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA32364570E5F6F23CB4864A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD9B3B328CF86D45EE2E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoMainTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoMainTests;
+				PRODUCT_NAME = AlgoFullgoMainTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8EADE9AC356B337EEB1A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCreateTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCreateTests;
+				PRODUCT_NAME = AlgoFullgoCreateTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6993D7190D036DBB9F8C77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCore.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCore;
+				PRODUCT_NAME = AlgoFullgoCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF4F9CD0BE3BC3F444822CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCreate.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCreate;
+				PRODUCT_NAME = AlgoFullgoCreate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0EBBCAF52F6F58BE00BB8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgoCoreTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdd.AlgoFullgoCoreTests;
+				PRODUCT_NAME = AlgoFullgoCoreTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F229EB66AA6B562F75B49790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE78EEC22C7AEEE3A44E6517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Derived/InfoPlists/AlgoFullgo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AlgoFullgo;
+				PRODUCT_NAME = AlgoFullgo;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047322FEB6DEE216C6AE3638 /* Build configuration list for PBXNativeTarget "AlgoFullgoMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE95594BFDF88FD2200CF2B /* Debug */,
+				180B931C306ADB89FFB0C513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE8376046C76B3013D5B452 /* Build configuration list for PBXProject "AlgoFullgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F229EB66AA6B562F75B49790 /* Debug */,
+				CA32364570E5F6F23CB4864A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA0AE4C135A71BBBBE02816 /* Build configuration list for PBXNativeTarget "AlgoFullgoCreate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4F9CD0BE3BC3F444822CB9 /* Debug */,
+				A80A4111B0E9B0D41EBB2108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A518CCF3D28C4E346EF394 /* Build configuration list for PBXNativeTarget "AlgoFullgoLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C1F117CC6028BD0F54BD0A /* Debug */,
+				3C190E53D511EF985BE016A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB0B98002E7449962BA5807 /* Build configuration list for PBXNativeTarget "AlgoFullgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92185A017D06B774382D2ED2 /* Debug */,
+				387C4E11E2AA97DF02DE9520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978B252EF9E2B4E281806F7 /* Build configuration list for PBXNativeTarget "AlgoFullgoMainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9B3B328CF86D45EE2E4FC /* Debug */,
+				3F1D6A68E18AD29E3219B05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49FD745F59DA0A229B36A0D /* Build configuration list for PBXNativeTarget "AlgoFullgoSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3D340654B670D4D1FB0952 /* Debug */,
+				C2D5FC802E759CBCA4119FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82A86FE42044807AB1C20C3 /* Build configuration list for PBXNativeTarget "AlgoFullgoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740062077978CADAEF09CC15 /* Debug */,
+				16881A7A6F7A7F53B9048CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58E99313E82FB09B21EA364 /* Build configuration list for PBXNativeTarget "AlgoFullgoCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F418F07B6FF05B1760576D0 /* Debug */,
+				F0EBBCAF52F6F58BE00BB8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2C0E1520F04D949D223B23 /* Build configuration list for PBXNativeTarget "AlgoFullgoCreateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8EADE9AC356B337EEB1A46 /* Debug */,
+				39AA9229DB8CFC7CBB9C0D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79B03F6C9C332F31F2305AA /* Build configuration list for PBXNativeTarget "AlgoFullgoSettingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A1E0130E0BD1F4202137EA /* Debug */,
+				9D4C7CD56CB4E2C6EA9E758C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85E7442B7B4805EF865BAE6 /* Build configuration list for PBXNativeTarget "AlgoFullgoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B9A00580D19F120D02A951 /* Debug */,
+				D6993D7190D036DBB9F8C77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC9828654DFDB9586A15556 /* Build configuration list for PBXNativeTarget "AlgoFullgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE78EEC22C7AEEE3A44E6517 /* Debug */,
+				51110C43E137A83FD3716B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2F55B9697FE05DCE8571F0 /* Project object */;
+}
