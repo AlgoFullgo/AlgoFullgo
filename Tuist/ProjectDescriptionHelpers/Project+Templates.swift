@@ -20,9 +20,35 @@ extension Project {
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(
             name: name,
-            organizationName: "pdd.com",
+            organizationName: "algofullgo.com",
             targets: targets
         )
+    }
+    
+    public static func modularTarget(
+        name: String,
+        platform: Platform,
+        dependencies: [TargetDependency]
+    ) -> [Target] {
+        let sources = Target(
+            name: name,
+            platform: platform,
+            product: .framework,
+            bundleId: "com.algofullgo.\(name)",
+            infoPlist: .default,
+            sources: ["Targets/\(name)/Sources/**"],
+            resources: [],
+            dependencies: dependencies
+        )
+        let tests = Target(name: "\(name)Tests",
+                platform: platform,
+                product: .unitTests,
+                bundleId: "com.algofullgo.\(name)Tests",
+                infoPlist: .default,
+                sources: ["Targets/\(name)/Tests/**"],
+                resources: [],
+                dependencies: [.target(name: name)])
+        return [sources, tests]
     }
 
     // MARK: - Private
@@ -36,7 +62,7 @@ extension Project {
             name: name,
             platform: platform,
             product: .framework,
-            bundleId: "com.pdd.\(name)",
+            bundleId: "com.algofullgo.\(name)",
             infoPlist: .default,
             sources: ["Targets/\(name)/Sources/**"],
             resources: [],
@@ -45,7 +71,7 @@ extension Project {
         let tests = Target(name: "\(name)Tests",
                 platform: platform,
                 product: .unitTests,
-                bundleId: "com.pdd.\(name)Tests",
+                bundleId: "com.algofullgo.\(name)Tests",
                 infoPlist: .default,
                 sources: ["Targets/\(name)/Tests/**"],
                 resources: [],
