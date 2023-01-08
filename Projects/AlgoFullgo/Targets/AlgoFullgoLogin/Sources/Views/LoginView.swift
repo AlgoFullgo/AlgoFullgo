@@ -9,18 +9,29 @@
 import SwiftUI
 
 // TODO: Core로 이동 예정
-protocol OAuthAuthorizable {
+public protocol OAuthAuthorizable {
   func authorize()
 }
 
 import ComposableArchitecture
 
-struct LoginView: View {
+public struct LoginView: View {
   let store: Store<LoginFeature.State, LoginFeature.Action>
   
-  let coordinator = AppleLoginCoordinator()
+  let coordinator: OAuthAuthorizable
   
-  var body: some View {
+  // TODO: Store도 DI 하려고 보니 protocol 처리로 못해서 access control 이슈가 있음 수정 필요
+  public init(
+    coordinator: OAuthAuthorizable
+  ) {
+    self.store = Store<LoginFeature.State, LoginFeature.Action>.init(
+      initialState: LoginFeature.State(),
+      reducer: LoginFeature()
+    )
+    self.coordinator = coordinator
+  }
+  
+  public var body: some View {
     VStack {
       Image("")
       Image("")
@@ -48,10 +59,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
   static var previews: some View {
-    LoginView(
-      store: Store<LoginFeature.State, LoginFeature.Action>(
-        initialState: LoginFeature.State(),
-        reducer: LoginFeature())
-    )
+    LoginView(coordinator: AppleLoginCoordinator())
   }
 }

@@ -8,12 +8,12 @@
 
 import AuthenticationServices
 
-final class AppleLoginCoordinator:
+final public class AppleLoginCoordinator:
   NSObject,
   OAuthAuthorizable,
   ASAuthorizationControllerDelegate {
     
-    func authorize() {
+    public func authorize() {
         let appleIDProvider = ASAuthorizationAppleIDProvider()
         let request = appleIDProvider.createRequest()
         request.requestedScopes = [
@@ -29,7 +29,7 @@ final class AppleLoginCoordinator:
 
 // MARK: - ASAuthorizationControllerDelegate
 extension AppleLoginCoordinator {
-  func authorizationController(
+  public func authorizationController(
     controller: ASAuthorizationController,
     didCompleteWithAuthorization authorization: ASAuthorization
   ) {
@@ -42,7 +42,7 @@ extension AppleLoginCoordinator {
       }
   }
   
-  func authorizationController(
+  public func authorizationController(
     controller: ASAuthorizationController,
     didCompleteWithError error: Error
   ) {
