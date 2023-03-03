@@ -6,9 +6,11 @@ let appName = "AlgoFullgo"
 let infoPlist: [String: InfoPlist.Value] = [
     "CFBundleShortVersionString": "1.0.0",
     "CFBundleVersion": "1",
+    "UILaunchScreens": [:]
 ]
 
 let sharedDependencies: [TargetDependency] = [
+    .target(name: "AlgoFullgoCore"),
     .external(name: "ComposableArchitecture")
 ]
 
@@ -18,6 +20,10 @@ var baseTarget = [
         platform: .iOS,
         product: .app,
         bundleId: "com.algofullgo.\(appName)",
+        deploymentTarget: .iOS(
+          targetVersion: "15.5",
+          devices: .iphone
+        ),
         infoPlist: .extendingDefault(with: infoPlist),
         sources: ["Targets/\(appName)/Sources/**"],
         resources: ["Targets/\(appName)/Resources/**"],
