@@ -12,7 +12,7 @@ import SwiftUI
 
 struct MainFeature: ReducerProtocol {
   struct State: Equatable {
-    
+    var weeklyNumberOfAlgoProblem: Int
   }
   
   enum Action: Equatable {

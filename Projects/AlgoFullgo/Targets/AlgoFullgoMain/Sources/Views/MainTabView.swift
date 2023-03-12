@@ -28,7 +28,7 @@ public struct MainTabView: View {
       ) {
         MainView(
           store: StoreOf<MainFeature>(
-            initialState: MainFeature.State(),
+            initialState: MainFeature.State(weeklyNumberOfAlgoProblem: 5),
             reducer: MainFeature()
           )
         )
@@ -39,7 +39,7 @@ public struct MainTabView: View {
         
         MainView(
           store: StoreOf<MainFeature>(
-            initialState: MainFeature.State(),
+            initialState: MainFeature.State(weeklyNumberOfAlgoProblem: 5),
             reducer: MainFeature()
           )
         )
@@ -47,7 +47,7 @@ public struct MainTabView: View {
             Image("tab_settings_empty_icon")
             Text("설정")
           }
-      }
+      }.ignoresSafeArea()
     }
   }
 }
